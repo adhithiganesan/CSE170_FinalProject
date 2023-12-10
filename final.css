@@ -4,6 +4,12 @@
 body {
     margin: 0;
 }
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 
 header {
     background-color: #043F05;
@@ -22,8 +28,8 @@ h1 {
     margin: 0;
 }
 .box {
-    width: 60%;
-    height: 500px;
+    width: 40%;
+    height: 450px;
     flex-shrink: 0;
     border-radius: 20px;
     background: rgba(245, 239, 218, 0.96);
@@ -39,13 +45,13 @@ h1 {
     margin: auto;
 }
   
-.carousel {
+.carousel, .carousel2, .carousel3, .carousel4, .carousel5 {
     width:50%;
     height: 300px;
     align-items: center;
 }
   
-.prev, .next {
+.prev, .next, .prev1, .next1, .prev2, .next2,.prev3, .next3,.prev4, .next4,.prev5, .next5 {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -59,16 +65,16 @@ h1 {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-.prev{
+.prev, .prev1, .prev2 , .prev3, .prev4, .prev5{
     margin-left:130px;
 }
   
-.next{
+.next, .next1, .next2, .next3, .next4, .next5{
     left: 80%;
     border-radius: 3px 0 0 3px;
 }
   
-.prev:hover, .next:hover{
+.prev:hover,.prev1:hover,.prev2:hover,.prev3:hover,.prev4:hover,.prev5:hover, .next:hover, .next1:hover, .next2:hover, .next3:hover, .next4:hover, .next5:hover{
     background-color: white;
     border-radius: 100%;
 }
