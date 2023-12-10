@@ -57,60 +57,83 @@ document.addEventListener('DOMContentLoaded', function () {
       if (i < 0) {
         i = pototoChipURLs - 1;
       }
-      updateImage(potatoChipURLs);
+      updateImagePotatoChip(potatoChipURLs);
     }
     function showNextPotatoChipImage() {
       i++;
       if (i >= pototoChipURLs.length) {
         i = 0;
       }
-      updateImage(pototoChipURLs);
+      updateImagePotatoChip(pototoChipURLs);
     }
+    function updateImagePotatoChip(imageURLs) {
+      const currentImage = document.querySelector('.carousel');
+      currentImage.src = imageURLs[i];
+    }
+
+
     //ROSE CANYON FUNCTIONS
     function showPreviousRoseCanyonImage() {
       i--;
       if (i < 0) {
         i = roseCanyonURLs - 1;
       }
-      updateImage(pototoChipURLs);
+      updateImageRoseCanyon(roseCanyonURLs);
     }
     function showNextRoseCanyonImage() {
       i++;
       if (i >= roseCanyonURLs.length) {
         i = 0;
       }
-      updateImage(roseCanyonURLs);
+      updateImageRoseCanyon(roseCanyonURLs);
     }
+    function updateImageRoseCanyon(imageURLs) {
+      const currentImage = document.querySelector('.carousel1');
+      currentImage.src = imageURLs[i];
+    }
+
+
     //MISSION TRAILS FUNCTIONS
     function showPreviousMissionTrailsImage() {
       i--;
       if (i < 0) {
         i = missionTrailsURLs - 1;
       }
-      updateImage(missionTrailsURLs);
+      updateImageMissionTrails(missionTrailsURLs);
     }
     function showNextMissionTrailsImage() {
       i++;
       if (i >= missionTrailsURLs.length) {
         i = 0;
       }
-      updateImage(missionTrailsURLs);
+      updateImageMissionTrails(missionTrailsURLs);
     }
+    function updateImageMissionTrails(imageURLs) {
+      const currentImage = document.querySelector('.carousel2');
+      currentImage.src = imageURLs[i];
+    }
+
+
     //LOS PENASQUITOS FUNCTIONS
     function showPreviousLosPenasquitosImage() {
       i--;
       if (i < 0) {
         i = losPenasquitosURLs - 1;
       }
-      updateImage(losPenasquitosURLs);
+      updateImageLosPenasquitos(losPenasquitosURLs);
     }
     function showNextLosPenasquitosImage() {
       i++;
       if (i >= losPenasquitosURLs.length) {
         i = 0;
       }
-      updateImage(losPenasquitosURLs);
+      updateImageLosPenasquitos(losPenasquitosURLs);
     }
+    function updateImageLosPenasquitos(imageURLs) {
+      const currentImage = document.querySelector('.carousel3');
+      currentImage.src = imageURLs[i];
+    }
+
     //MARIAN BEAR FUNCTIONS
     function showPreviousMarianBearImage() {
       i--;
@@ -127,9 +150,11 @@ document.addEventListener('DOMContentLoaded', function () {
       updateImageMarianBear(marianBearURLs);
     }
     function updateImageMarianBear(imageURLs) {
-      const currentImage = document.querySelector('.carousel5');
+      const currentImage = document.querySelector('.carousel4');
       currentImage.src = imageURLs[i];
     }
+
+    
     //SUNSET CLIFFS FUNCTIONS
     function showPreviousSunsetCliffsImage() {
       i--;
