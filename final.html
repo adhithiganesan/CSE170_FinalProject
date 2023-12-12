@@ -7,24 +7,30 @@
         <!--Font installs-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>The<br> Hiking<br> Website</h1>
-        </header>    
+            <div class="header-content">
+                <h1>The<br> Hiking<br> Website</h1>
+                <div class="search-bar">
+                    <input type="text" class = "input" placeholder="Find hikes near you...">
+                    <button class = "submit" type="submit">Search</button>
+                </div>
+            </div>
+        </header>  
         
         <div class="box-container">
         <!--POTATO CHIP ROCK-->  
             <div class="box">
                 <!-- LOCATION ICON AND TRAIL NAME -->
                 <img src="locationIcon.png" width="60" height="50" style="vertical-align: middle;" alt="Location Icon">
-                <a href="https://www.google.com/search?q=potato+chip+rock+&sca_esv=589592780&bih=662&biw=1440&rlz=1C5CHFA_enUS984US984&hl=en&sxsrf=AM9HkKlWNgUMR0uE5vrg_fk07VPldAjTHQ%3A1702228222119&ei=_vB1ZfneBqOlqtsPsoWPwAU&ved=0ahUKEwj51YWkroWDAxWjkmoFHbLCA1gQ4dUDCBA&uact=5&oq=potato+chip+rock+&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXBvdGF0byBjaGlwIHJvY2sgMgoQIxiABBiKBRgnMgUQABiABDIFEAAYgAQyCxAuGK8BGMcBGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESOkUUJ0MWMATcAF4AZABAJgBkwGgAbMGqgEDMC42uAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICExAuGIAEGIoFGEMYxwEYrwEYsAPCAg0QABiABBiKBRhDGLADwgIGEAAYFhgewgICECbCAgsQABiABBiKBRiGA8ICCxAuGIAEGMcBGK8B4gMEGAAgQYgGAZAGCg&sclient=gws-wiz-serp#ip=1" style="text-decoration: underline; color: inherit; vertical-align: middle;">Potato Chip Rock</a>
+                <a href="https://www.google.com/search?q=potato+chip+rock+&sca_esv=589592780&bih=662&biw=1440&rlz=1C5CHFA_enUS984US984&hl=en&sxsrf=AM9HkKlWNgUMR0uE5vrg_fk07VPldAjTHQ%3A1702228222119&ei=_vB1ZfneBqOlqtsPsoWPwAU&ved=0ahUKEwj51YWkroWDAxWjkmoFHbLCA1gQ4dUDCBA&uact=5&oq=potato+chip+rock+&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXBvdGF0byBjaGlwIHJvY2sgMgoQIxiABBiKBRgnMgUQABiABDIFEAAYgAQyCxAuGK8BGMcBGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESOkUUJ0MWMATcAF4AZABAJgBkwGgAbMGqgEDMC42uAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICExAuGIAEGIoFGEMYxwEYrwEYsAPCAg0QABiABBiKBRhDGLADwgIGEAAYFhgewgICECbCAgsQABiABBiKBRiGA8ICCxAuGIAEGMcBGK8B4gMEGAAgQYgGAZAGCg&sclient=gws-wiz-serp#ip=1" style="text-decoration: underline; color: inherit; vertical-align: middle; font-size: xx-large; font-weight: bolder;">Potato Chip Rock</a>
                 <br>
                 <!-- TRAIL RATING -->
                 <img src="potatoChipRockRating.png" style="width: 35%;"> 
                 <!-- TRAIL DISTANCE -->
-                <p style="color: gray; font-size: 25px; margin:auto;padding-left: 9px">6.1 miles from you</p>
+                <p style="color: gray; font-size: 18px; margin:auto;padding-left: 9px; font-weight: bold;">6.1 miles away</p>
             
                 <!-- IMAGE CAROUSEL -->
                 <div class="carousel-container" style="text-align: center;">
@@ -41,18 +47,18 @@
             <div class="box">
                 <!--LOCATION ICON AND TRAIL NAME-->
                 <img src="locationIcon.png" width="60" height="50" style="vertical-align: middle;" alt="Location Icon">
-                <a href="https://www.google.com/search?q=rose+canyon+trailhead&sca_esv=589592780&rlz=1C5CHFA_enUS984US984&biw=1440&bih=662&tbm=lcl&sxsrf=AM9HkKngf4-EcIMI1fAFvtoF-L1emmJS-Q%3A1702228582965&ei=ZvJ1Ze2uOu61qtsP4rejoAE&oq=rose+ca&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIgdyb3NlIGNhKgIIADIEECMYJzILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjcClAAWMkEcAB4AJABAJgBgQGgAdQGqgEDMC43uAEByAEA-AEBwgILEAAYgAQYsQMYgwHCAhAQABiABBiKBRhDGLEDGIMBwgIKEAAYgAQYigUYQ8ICExAAGIAEGIoFGEMYsQMYgwEYyQPCAgsQABiABBiKBRiSA8ICChAAGIAEGBQYhwLCAhAQABiABBgUGIcCGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAg0QABiABBiKBRhDGLEDwgIIEAAYgAQYsQOIBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[32.860668499999996,-117.20811769999999],[32.8548257,-117.22093609999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:1" style="text-decoration: underline; color: inherit; vertical-align: middle;">Rose Canyon Trailhead</a>
+                <a href="https://www.google.com/search?q=rose+canyon+trailhead&sca_esv=589592780&rlz=1C5CHFA_enUS984US984&biw=1440&bih=662&tbm=lcl&sxsrf=AM9HkKngf4-EcIMI1fAFvtoF-L1emmJS-Q%3A1702228582965&ei=ZvJ1Ze2uOu61qtsP4rejoAE&oq=rose+ca&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIgdyb3NlIGNhKgIIADIEECMYJzILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjcClAAWMkEcAB4AJABAJgBgQGgAdQGqgEDMC43uAEByAEA-AEBwgILEAAYgAQYsQMYgwHCAhAQABiABBiKBRhDGLEDGIMBwgIKEAAYgAQYigUYQ8ICExAAGIAEGIoFGEMYsQMYgwEYyQPCAgsQABiABBiKBRiSA8ICChAAGIAEGBQYhwLCAhAQABiABBgUGIcCGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAg0QABiABBiKBRhDGLEDwgIIEAAYgAQYsQOIBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[32.860668499999996,-117.20811769999999],[32.8548257,-117.22093609999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:1" style="text-decoration: underline; color: inherit; vertical-align: middle;  font-size: xx-large; font-weight: bolder;">Rose Canyon Trailhead</a>
                 <br>
                 <!--TRAIL RATING-->
                 <img src = "roseCanyonRating.png" style = "width: 35%;"> 
                 <!--TRAIL DISTANCE-->
-                <p style="color: gray; font-size: 25px; margin:auto; padding-left: 9px">7.3 miles from you</p>
+                <p style="color: gray; font-size: 18px; margin:auto; padding-left: 9px; font-weight: bold;">7.3 miles away</p>
 
                 <!-- IMAGE CAROUSEL -->
                 <div class="carousel-container" style="text-align: center;">
                     <div>
                         <button class="prev1" style = "margin-left: -12%">❮</button>
-                        <img class="carousel1" src="https://www.everydaycalifornia.com/cdn/shop/articles/unnamed_91141383-64ba-4712-90a1-d6b00a5f4e80.jpg?v=1671489969&width=1200" style="display: inline-block; margin: auto;">
+                        <img class="carousel1" src="https://lh3.googleusercontent.com/p/AF1QipP26DfavKdrfRtSkb64u_oYe9K27VmuZzIFC_Hd=s1360-w1360-h1020" style="display: inline-block; margin: auto;">
                         <button class="next1">❯</button>
                     </div>
                 </div>
@@ -63,18 +69,18 @@
             <div class="box">
                 <!--LOCATION ICON AND TRAIL NAME-->
                 <img src="locationIcon.png" width="60" height="50" style="vertical-align: middle;" alt="Location Icon">
-                <a href="https://www.google.com/search?q=rose+canyon+trailhead&sca_esv=589592780&rlz=1C5CHFA_enUS984US984&biw=1440&bih=662&tbm=lcl&sxsrf=AM9HkKngf4-EcIMI1fAFvtoF-L1emmJS-Q%3A1702228582965&ei=ZvJ1Ze2uOu61qtsP4rejoAE&oq=rose+ca&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIgdyb3NlIGNhKgIIADIEECMYJzILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjcClAAWMkEcAB4AJABAJgBgQGgAdQGqgEDMC43uAEByAEA-AEBwgILEAAYgAQYsQMYgwHCAhAQABiABBiKBRhDGLEDGIMBwgIKEAAYgAQYigUYQ8ICExAAGIAEGIoFGEMYsQMYgwEYyQPCAgsQABiABBiKBRiSA8ICChAAGIAEGBQYhwLCAhAQABiABBgUGIcCGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAg0QABiABBiKBRhDGLEDwgIIEAAYgAQYsQOIBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[32.860668499999996,-117.20811769999999],[32.8548257,-117.22093609999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:1" style="text-decoration: underline; color: inherit; vertical-align: middle;">Mission Trails Regional Park</a>
+                <a href="https://www.google.com/search?q=mission+trails+hiking&sca_esv=589889819&rlz=1C5CHFA_enUS984US984&sxsrf=AM9HkKmVK1jpQX-s-RAcGraL_1UF_S1QoA%3A1702337044059&ei=FJp3ZYmgA5TNkPIPwdCI0A4&oq=miss&gs_lp=Egxnd3Mtd2l6LXNlcnAiBG1pc3MqAggAMgoQIxiABBiKBRgnMhMQLhiABBiKBRhDGMcBGK8BGI4FMgsQABiABBiKBRiRAjIFEC4YgAQyChAAGIAEGIoFGEMyEBAuGIAEGIoFGEMYxwEYrwEyDhAuGIAEGMcBGK8BGI4FMgUQLhiABDIOEC4YgAQYxwEYrwEYjgUyChAuGIAEGIoFGENI-AxQAFj5AnAAeAGQAQCYAW2gAY8DqgEDMi4yuAEByAEA-AEBwgITEC4YrwEYxwEYgAQYigUYjgUYJ8ICBRAAGIAEwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQABiABBixAxiDAcICIBAuGK8BGMcBGIAEGIoFGI4FGJcFGNwEGN4EGOAE2AEBwgIEECMYJ8ICEBAuGIAEGBQYhwIYsQMY1ALCAhAQLhgUGIcCGNQCGLEDGIAE4gMEGAAgQYgGAboGBggBEAEYFA&sclient=gws-wiz-serp" style="text-decoration: underline; color: inherit; vertical-align: middle; font-size: xx-large; font-weight: bolder;">Mission Trails Regional Park</a>
                 <br>
                 <!--TRAIL RATING-->
                 <img src = "roseCanyonRating.png" style = "width: 35%;"> 
                 <!--TRAIL DISTANCE-->
-                <p style="color: gray; font-size: 25px; margin:auto; padding-left: 9px">7.3 miles from you</p>
+                <p style="color: gray; font-size: 18px; margin:auto; padding-left: 9px; font-weight: bold;">8.8 miles away</p>
 
                 <!--IMAGE CAROUSEL-->
                 <div class="carousel-container" style="text-align: center;">
                     <div>
                         <button class="prev2" style = "margin-left: -12%">❮</button>
-                        <img class="carousel2" src="https://www.everydaycalifornia.com/cdn/shop/articles/unnamed_91141383-64ba-4712-90a1-d6b00a5f4e80.jpg?v=1671489969&width=1200" style="display: inline-block; margin: auto;">
+                        <img class="carousel2" src="https://lh3.googleusercontent.com/p/AF1QipPdCEOnkdlh_TVBusWgecIfqKRmzty6jZDTMJjn=s1360-w1360-h1020" style="display: inline-block; margin: auto;">
                         <button class="next2">❯</button>
                     </div>
                 </div>
@@ -84,18 +90,18 @@
             <div class="box">
                 <!--LOCATION ICON AND TRAIL NAME-->
                 <img src="locationIcon.png" width="60" height="50" style="vertical-align: middle;" alt="Location Icon">
-                <a href="https://www.google.com/search?q=rose+canyon+trailhead&sca_esv=589592780&rlz=1C5CHFA_enUS984US984&biw=1440&bih=662&tbm=lcl&sxsrf=AM9HkKngf4-EcIMI1fAFvtoF-L1emmJS-Q%3A1702228582965&ei=ZvJ1Ze2uOu61qtsP4rejoAE&oq=rose+ca&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIgdyb3NlIGNhKgIIADIEECMYJzILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjcClAAWMkEcAB4AJABAJgBgQGgAdQGqgEDMC43uAEByAEA-AEBwgILEAAYgAQYsQMYgwHCAhAQABiABBiKBRhDGLEDGIMBwgIKEAAYgAQYigUYQ8ICExAAGIAEGIoFGEMYsQMYgwEYyQPCAgsQABiABBiKBRiSA8ICChAAGIAEGBQYhwLCAhAQABiABBgUGIcCGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAg0QABiABBiKBRhDGLEDwgIIEAAYgAQYsQOIBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[32.860668499999996,-117.20811769999999],[32.8548257,-117.22093609999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:1" style="text-decoration: underline; color: inherit; vertical-align: middle;">Los Penasquitos Canyon Trailhead</a>
+                <a href="https://www.google.com/search?q=los+penasquitos+canyon+preserve&sca_esv=589889819&rlz=1C5CHFA_enUS984US984&sxsrf=AM9HkKn2LjnKiZ0AsuFa5WYXnPfAlNthvA%3A1702337203824&ei=s5p3Zcr6McnzkPIPwe-R2As&gs_ssp=eJwNxkEOQDAQBdDY9hJsrH2doHoEtxjaJhKqWhpuz1s9IZq9gcw5U49C13gUzOxUR8xtPxo3aDyGZsKgoECS4cxUbkeqgvWcznu9_i_s38NXIdpkY7YfB6gaqA&oq=los+&gs_lp=Egxnd3Mtd2l6LXNlcnAiBGxvcyAqAggBMgoQIxiABBiKBRgnMhMQLhiABBiKBRjHARivARiOBRgnMgsQABiABBiKBRiRAjIQEC4YgAQYigUYQxjHARivATIQEC4YgAQYigUYQxjHARivATILEC4YgAQYsQMYgwEyEBAuGIAEGIoFGEMYsQMYgwEyCxAuGIAEGLEDGIMBMgUQABiABDIOEC4YgAQYigUYsQMYgwFItwpQAFjdA3AAeAGQAQCYAXagAcYDqgEDMC40uAEByAEA-AEBwgITEC4YrwEYxwEYgAQYigUYjgUYJ8ICChAuGIAEGIoFGCfCAgsQLhiABBiKBRiRAsICERAuGIMBGNQCGLEDGIAEGIoFwgILEC4YgAQYxwEY0QPCAgUQLhiABMICFBAuGIAEGIoFGLEDGIMBGMcBGK8BwgIREC4YgAQYsQMYgwEYxwEY0QPCAgoQLhiABBgUGIcCwgIKEAAYgAQYigUYQ8ICDRAuGIAEGBQYhwIYsQPCAgoQLhiABBiKBRhD4gMEGAAgQYgGAQ&sclient=gws-wiz-serp" style="text-decoration: underline; color: inherit; vertical-align: middle; font-size: xx-large; font-weight: bolder;">Los Penasquitos Canyon Trailhead</a>
                 <br>
                 <!--TRAIL RATING-->
                 <img src = "roseCanyonRating.png" style = "width: 35%;"> 
                 <!--TRAIL DISTANCE-->
-                <p style="color: gray; font-size: 25px; margin:auto; padding-left: 9px">7.3 miles from you</p>
+                <p style="color: gray; font-size: 18px; margin:auto; padding-left: 9px; font-weight: bold;">9.5 miles away</p>
 
                 <!-- IMAGE CAROUSEL -->
                 <div class="carousel-container" style="text-align: center;">
                     <div>
                         <button class="prev3" style = "margin-left: -12%">❮</button>
-                        <img class="carousel3" src="https://www.everydaycalifornia.com/cdn/shop/articles/unnamed_91141383-64ba-4712-90a1-d6b00a5f4e80.jpg?v=1671489969&width=1200" style="display: inline-block; margin: auto;">
+                        <img class="carousel3" src="https://lh3.googleusercontent.com/p/AF1QipOMUOkAN8ooRkLFRlFlAsHmM5e3bsZQGZ9PnDnR=s1360-w1360-h1020" style="display: inline-block; margin: auto;">
                         <button class="next3">❯</button>
                     </div>
                 </div>
@@ -105,18 +111,18 @@
             <div class="box">
                 <!--LOCATION ICON AND TRAIL NAME-->
                 <img src="locationIcon.png" width="60" height="50" style="vertical-align: middle;" alt="Location Icon">
-                <a href="https://www.google.com/search?q=rose+canyon+trailhead&sca_esv=589592780&rlz=1C5CHFA_enUS984US984&biw=1440&bih=662&tbm=lcl&sxsrf=AM9HkKngf4-EcIMI1fAFvtoF-L1emmJS-Q%3A1702228582965&ei=ZvJ1Ze2uOu61qtsP4rejoAE&oq=rose+ca&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIgdyb3NlIGNhKgIIADIEECMYJzILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjcClAAWMkEcAB4AJABAJgBgQGgAdQGqgEDMC43uAEByAEA-AEBwgILEAAYgAQYsQMYgwHCAhAQABiABBiKBRhDGLEDGIMBwgIKEAAYgAQYigUYQ8ICExAAGIAEGIoFGEMYsQMYgwEYyQPCAgsQABiABBiKBRiSA8ICChAAGIAEGBQYhwLCAhAQABiABBgUGIcCGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAg0QABiABBiKBRhDGLEDwgIIEAAYgAQYsQOIBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[32.860668499999996,-117.20811769999999],[32.8548257,-117.22093609999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:1" style="text-decoration: underline; color: inherit; vertical-align: middle;">Marian Bear Memorial Trailhead</a>
+                <a href="https://www.google.com/search?q=marian+bear+park&sca_esv=589889819&rlz=1C5CHFA_enUS984US984&sxsrf=AM9HkKk7k2jyjlUryUAkSlZgJIbUI-GlsQ%3A1702337164244&ei=jJp3ZZytDq2YkPIPjNGLyA0&gs_ssp=eJzj4tZP1zcsSS63SC9KNmC0UjWosDBISTYwSE01NDK2NDcyMLQyqDAxsDQ1NTA2tTQwMDNKNkz0EshNLMpMzFNISk0sUihILMoGAKWrE8k&oq=marian+&gs_lp=Egxnd3Mtd2l6LXNlcnAiB21hcmlhbiAqAggBMgoQIxiABBiKBRgnMhoQLhivARjHARiRAhiSAxjJAxiABBiKBRiOBTIIEC4YgAQYsQMyDhAAGIAEGIoFGLEDGIMBMggQLhixAxiABDILEC4YgAQYsQMYgwEyCBAuGIAEGLEDMg4QABiABBiKBRixAxiDATIREC4YgAQYigUYsQMYxwEYrwEyCxAuGIAEGLEDGIMBSOAfUK4LWO0QcAF4AZABAJgBuQGgAaoGqgEDMS42uAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAhwQLhiABBiKBRhDGMcBGK8BGMgDGLADGI4F2AEBwgITEC4YgAQYigUYQxjIAxiwA9gBAcICDhAAGOQCGNYEGLAD2AECwgIKEC4YgAQYigUYQ8ICExAuGIAEGIoFGEMYxwEYrwEYjgXCAgoQABiABBiKBRhDwgIUEC4YgAQYigUYkQIYxwEYrwEYjgXCAhkQLhiABBiKBRhDGMcBGK8BGJgFGJ4FGJkFwgIQEAAYgAQYigUYQxixAxiDAcICBRAAGIAEwgIEECMYJ8ICFxAuGIAEGIoFGJECGMkDGMcBGK8BGI4FwgINEAAYgAQYigUYQxixA8ICCxAAGIAEGLEDGIMBwgIQEC4YgAQYigUYQxjHARivAcICDhAuGIAEGMcBGK8BGI4FwgIHEAAYgAQYCsICEBAuGIAEGIoFGEMYsQMYgwHCAgoQLhiABBgUGIcCwgIXEC4YrwEYxwEYkQIYyQMYgAQYigUYjgXCAhYQLhiABBiKBRixAxiDARjHARjRAxgKwgIFEC4YgATiAwQYACBBiAYBkAYSugYGCAEQARgIugYGCAIQARgJ&sclient=gws-wiz-serp1" style="text-decoration: underline; color: inherit; vertical-align: middle; font-size: xx-large; font-weight: bolder;">Marian Bear Memorial Trailhead</a>
                 <br>
                 <!--TRAIL RATING-->
                 <img src = "roseCanyonRating.png" style = "width: 35%;"> 
                 <!--TRAIL DISTANCE-->
-                <p style="color: gray; font-size: 25px; margin:auto; padding-left: 9px">7.3 miles from you</p>
+                <p style="color: gray; font-size: 18px; margin:auto; padding-left: 9px; font-weight: bold;">11.2 miles away</p>
 
                 <!-- IMAGE CAROUSEL -->
                 <div class="carousel-container" style="text-align: center;">
                     <div>
                         <button class="prev4" style = "margin-left: -12%">❮</button>
-                        <img class="carousel4" src="https://www.everydaycalifornia.com/cdn/shop/articles/unnamed_91141383-64ba-4712-90a1-d6b00a5f4e80.jpg?v=1671489969&width=1200" style="display: inline-block; margin: auto;">
+                        <img class="carousel4" src="https://lh3.googleusercontent.com/p/AF1QipN69gRnTR17p4s-caATFmOqBcwq_uXLtWCxjkCm=s1360-w1360-h1020" style="display: inline-block; margin: auto;">
                         <button class="next4">❯</button>
                     </div>
                 </div>
@@ -126,18 +132,18 @@
             <div class="box">
                 <!--LOCATION ICON AND TRAIL NAME-->
                 <img src="locationIcon.png" width="60" height="50" style="vertical-align: middle;" alt="Location Icon">
-                <a href="https://www.google.com/search?q=rose+canyon+trailhead&sca_esv=589592780&rlz=1C5CHFA_enUS984US984&biw=1440&bih=662&tbm=lcl&sxsrf=AM9HkKngf4-EcIMI1fAFvtoF-L1emmJS-Q%3A1702228582965&ei=ZvJ1Ze2uOu61qtsP4rejoAE&oq=rose+ca&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIgdyb3NlIGNhKgIIADIEECMYJzILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjcClAAWMkEcAB4AJABAJgBgQGgAdQGqgEDMC43uAEByAEA-AEBwgILEAAYgAQYsQMYgwHCAhAQABiABBiKBRhDGLEDGIMBwgIKEAAYgAQYigUYQ8ICExAAGIAEGIoFGEMYsQMYgwEYyQPCAgsQABiABBiKBRiSA8ICChAAGIAEGBQYhwLCAhAQABiABBgUGIcCGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAg0QABiABBiKBRhDGLEDwgIIEAAYgAQYsQOIBgE&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[32.860668499999996,-117.20811769999999],[32.8548257,-117.22093609999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:1" style="text-decoration: underline; color: inherit; vertical-align: middle;">Sunset Cliffs Coastal Trail</a>
+                <a href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsyagoz8rKMWC0UjWosDBISU1MSjY2sTAzTUw1MLYyqEhNNLFMM0oxSTJNNbA0NDT1kiouzStOLVFIzslMSytWyEssKS1KzFEoSCzKBgDeghmc&q=sunset+cliffs+natural+park&rlz=1C5CHFA_enUS984US984&oq=sunset+cliff&aqs=chrome.2.0i355i433i512j46i433i512j46i20i175i199i263i512i654j46i175i199i512l2j46i175i199i512i654j0i512j46i175i199i512i664i665j46i175i199i512j0i512.2842j0j9&sourceid=chrome&ie=UTF-8" style="text-decoration: underline; color: inherit; vertical-align: middle; font-size: xx-large; font-weight: bolder;">Sunset Cliffs Coastal Trail</a>
                 <br>
                 <!--TRAIL RATING-->
                 <img src = "roseCanyonRating.png" style = "width: 35%;"> 
                 <!--TRAIL DISTANCE-->
-                <p style="color: gray; font-size: 25px; margin:auto; padding-left: 9px">7.3 miles from you</p>
+                <p style="color: gray; font-size: 18px; margin:auto; padding-left: 9px; font-weight: bold;">14.7 miles away</p>
 
                 <!-- IMAGE CAROUSEL -->
                 <div class="carousel-container" style="text-align: center;">
                     <div>
                         <button class="prev5" style = "margin-left: -12%">❮</button>
-                        <img class="carousel5" src="https://www.everydaycalifornia.com/cdn/shop/articles/unnamed_91141383-64ba-4712-90a1-d6b00a5f4e80.jpg?v=1671489969&width=1200" style="display: inline-block; margin: auto;">
+                        <img class="carousel5" src="https://lh3.googleusercontent.com/p/AF1QipN-96zJ5OIHH-_U2OAJDzw1HxkFaaGomEmDE59A=s1360-w1360-h1020" style="display: inline-block; margin: auto;">
                         <button class="next5">❯</button>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 *{
-    font-family: 'Karantina', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
 }
 body {
     margin: 0;
@@ -17,6 +17,13 @@ header {
     padding: 10px;
     text-align: left;
     margin: 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -26,7 +33,29 @@ h1 {
     color: white;
     padding: 10px;
     margin: 0;
+    margin-right: 20px;
 }
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 37%;
+}
+
+input[type="text"] {
+    padding: 12px; /* Increase the padding for a bigger input */
+    width: 500px; /* Set a fixed width or adjust as needed */
+    margin-right: 10px;
+}
+
+button {
+    padding: 12px 18px; /* Increase the padding for a bigger button */
+    background-color: #F5EFDA; /* Set the desired background color */
+    color: #000; /* Set the text color to black */
+    border: none;
+    border-radius: 10px; /* Add rounded edges */
+    cursor: pointer;
+}
+
 .box {
     width: 40%;
     height: 450px;
@@ -79,7 +108,3 @@ h1 {
     border-radius: 100%;
 }
   
-button{
-    background-color: transparent; 
-    border: none;
-}
