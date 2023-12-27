@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  //SEARCH BAR STUFF
+  //SEARCH BAR 
     const inputElement = document.querySelector('.input');
 
     inputElement.addEventListener('click', function () {
